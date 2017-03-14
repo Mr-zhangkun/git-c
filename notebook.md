@@ -74,6 +74,7 @@ $ git log
 第四行：提交信息标题
 第五行：提交信息具体内容
 ```
+![图片](http://p1.bqimg.com/1949/a1085382c120b4f9.png)
 ### git diff
 1.　查看修改的源码。
 ```sh
@@ -142,10 +143,15 @@ $ git push origin master
 input username:
 input password:
 ```
+
+![图片](http://p1.bqimg.com/1949/ff09fc417b0ae9c9.png)
+
+
 5. 更新本地库，与github库进行同步，将服务器提交下载到本地。
 ```sh
 $ git pull
 ```
+![图片](http://p1.bqimg.com/1949/75b45ddd30e87df2.png)
 # markdown
 ### Markdown
 Markdown 是一种轻量级标记语言，用易读易写的纯文本格式编写可以转换成HTML文档.
