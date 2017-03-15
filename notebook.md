@@ -62,6 +62,7 @@ First commit
 
 init commit
 ```
+![图片](http://p1.bqimg.com/1949/b6f0c4bbe364df7e.png)
 ### 查看提交信息
 查看提交的相关的信息
 ```sh
