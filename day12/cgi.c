@@ -18,7 +18,8 @@ int main(void)
   data = getenv("QUERY_STRING");
   if(data == NULL)
     printf("error!!!\n");
-  printf("%s\n", data);
+  //printf("%s\n", data);
+  printf("<br>");
   sscanf(data, "a=%ld&name=%d&b=%ld",&i, &k,&j);
   if(k == 1){
   printf("结果是%ld\n", i + j);
