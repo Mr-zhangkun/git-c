@@ -1,10 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "stack.h"
 
-typedef struct node{
-  int x;
-  struct node *pri, *next;
-}Node;
 
 Node * creat(int val){
   Node * h = NULL;
@@ -23,7 +18,7 @@ Node *insert(Node * h,int val){
     printf("error");
   }
   p->x = val;
-  
+
   p->next = h->next;
   h->next->pri = p;
   p->pri = h;
@@ -63,17 +58,3 @@ Node * insert_1(Node *h,int val,int val1){
   h->next = q;
   return q;
   }
-int main(int argc, char const *argv[]) {
-  Node * h;
-  h = creat(0);
-  insert(h, 1);
-  insert(h, 2);
-  insert(h, 3);
-  insert(h, 4);
-  insert(h, 5);
-  show(h);
-  //del(h,3);
-  insert_1(h,3, 8);
-  show(h);
-  return 0;
-}
